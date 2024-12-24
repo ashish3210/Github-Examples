@@ -1,11 +1,13 @@
 name: "workflow commands"
+
 on: ['push']
+
 jobs:
   my-job:
     runs-on: ubuntu-latest
-    steps: 
+     steps:
       - name: "group log"
-      run: |
-        echo "group mesg"
-        echo "middle"
-        echo "end mesg"
+        run: |
+          echo "group mesg"
+          echo "middle"
+          echo "end mesg"
